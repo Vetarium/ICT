@@ -13,9 +13,9 @@ i = 0
 while i < k:
     x = int(input())
     y = int(input())
-    while x<y:
-        a.pop(x)
-        a.insert(x,"0")
+    while x<=y:
+        a.pop(x-1)
+        a.insert(x-1,"0")
         x+=1
     x = 0
     y = 0
@@ -26,4 +26,4 @@ print(a)
 
 
 
-a = 0;
+
