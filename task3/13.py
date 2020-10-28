@@ -2,6 +2,7 @@ n = int(input())
 s = str(input())
 cnt = 0
 res = 0
+s = ""
 for i in range(n):
     if(s[i] == "x"):
         cnt+=1

@@ -2,6 +2,7 @@ n = int(input())
 s = str(input())
 l = 0;
 r = 0;
+res = ""
 for i in range(n):
     if(s[i] == "z"):
         l+=1
@@ -10,8 +11,10 @@ for i in range(n):
         r+=1
 
 while(r):
-    print(1)
+    res+= "1 "
     r-=1
 while(l):
-    print(0)
+    res+= "0 "
     l-=1
+
+print(res)
