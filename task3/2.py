@@ -8,9 +8,3 @@ for i in range(0, len(s)):
         res += "+"
 
 print(res[:len(res) - 1])
-#3
-
-s = input()
-
-res = s[:1].upper() + s[1:]
-print(res)
