@@ -1,5 +1,5 @@
 import random
-
+#kubiki
 s = []
 for x in range(0, 1000):
     s.append(random.randint(2, 12))
