@@ -1,5 +1,6 @@
 user_in = input()
 thisdict = {
+    #klava telephona
     ".": "1",
     ",": "11",
     "?": "111",

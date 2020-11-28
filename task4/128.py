@@ -8,7 +8,7 @@ def reverselookup(dict, val):
 
 def main():
     test = {"Aron":"true", "apple": "false"}
-    print(reverselookup(test, "true"))
+    print(reverselookup(test, "false"))
 
     print(reverselookup(test, "1.5"))
 
